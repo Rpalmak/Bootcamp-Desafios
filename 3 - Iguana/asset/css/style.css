@@ -145,3 +145,14 @@ footer p {
   color: #ffffff;
   opacity: 1;
 }
+
+footer p a{
+  text-decoration: none;
+  color: #ffffff;
+}
+footer p a:hover{
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+
