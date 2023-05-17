@@ -1,0 +1,26 @@
+.padre
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hijo img
+{
+    width: 300px;
+    height: 300px;
+}
+
+.hijo p{
+    font-size: larger;
+}
+
+.caracteristicas
+{
+    text-align: center;
+}
+
+.cardAll{
+    display:flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Background*/
+body {
+  background: url(../img/bg.jpg);
+}
+
+/*header nav*/
+header nav {
+  background: url(../img/header.jpg);
+  background-size: cover;
+  height: 300px;
+}
+
+h1 {
+  font-size: 30px;
+  padding: 10px;
+  font-family: "Arial", sans-serif;
+  color: #df8600;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 20px;
+  padding: 10px;
+  font-family: "Arial", sans-serif;
+  color: #5a76a0;
+  text-transform: uppercase;
+}
+
+p {
+  color: red;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+/*Titulo principal del header*/
+.TituloHamburguesas {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  font-size: 120px;
+  margin: auto;
+  padding: 80px;
+  color: #df8600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: #000000;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+article {
+  justify-content: center;
+}
+
+/*Alinear elementos hijos de article*/
+article > * {
+  vertical-align: middle;
+}
+
+/*Imagen de seccion*/
+.imagen-ventas img {
+  height: 90%;
+  width: 90%;
+  border-radius: 20%;
+}
+
+/*Div de Imagen*/
+.imagen-ventas {
+  display: inline-block;
+  width: 50%;
+  margin: 50px;
+}
+
+/*Div de descripcion*/
+.texto-ventas {
+  color: white;
+  background-color: #182327;
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  border-radius: 5%;
+  padding: 30px;
+  margin: 50px;
+}
+
+footer {
+  background-color: #182327;
+}
+
+footer ul li a img {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+footer li {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
