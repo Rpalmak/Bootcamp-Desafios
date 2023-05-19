@@ -79,13 +79,6 @@ header h1 {
   opacity: 1;
 }
 
-.imagenes {
-  background: #000000 0% 0% no-repeat padding-box;
-  width: 1280px;
-  height: 348px;
-  opacity: 0.96;
-}
-
 .habilidades {
   display: flex;
   justify-content: space-between;
@@ -110,6 +103,10 @@ header h1 {
   width: 1280px;
   height: 348px;
   justify-content: center;
+  background: #000000 0% 0% no-repeat padding-box;
+  width: 1280px;
+  height: 348px;
+  opacity: 0.96;
 }
 
 .imagenes .imagen img {
